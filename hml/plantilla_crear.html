@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>crear</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="crear">
+	<span class="heading">{fecha actual}</span><br>
+	<form action="controlador.php?vista=crear" method="post">
+	<textarea name="crearDiario" id="" cols="30" rows="10" placeholder="Que vas a hacer hoy">{texto}</textarea>
+	<input class="guardar" type="submit" value="Guardar">
+	</form>
+	<a class="volver" href="controlador.php?vista=panelAdmin">Volver</a>
+	</div>
+</body>
+</html>
